@@ -32,4 +32,6 @@ export type Student = {
   permanentAddress: string;
   guardian: Guardian;
   localGuardian: LocalGuardian;
+  profileImg: string;
+  isActive: string;
 };
