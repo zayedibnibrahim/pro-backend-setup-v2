@@ -41,5 +41,5 @@ const studentValidationSchema = z.object({
   profileImg: z.string().optional(),
   isActive: z.enum(['active', 'block']),
 });
-
+console.log('fefefe');
 export default studentValidationSchema;
